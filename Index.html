@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <script src="scroll.js"></script>
+</head>
+<body>
+<nav id="navbar">
+    <ul>
+        <li><a id="homeBtn" class="navBtn">Home</a></li>
+        <li><a id="aboutBtn" class="navBtn">About Me</a></li>
+        <li><a id="projectBtn"class="navBtn">My Projects</a></li>
+        <li><a id="contactBtn"class="navBtn">Contact Me</a></li>
+    </ul>
+</nav>
+<section id="home">
+    <div class="main">
+        <h1 class="headings">I AM<br>DAGMARA STACH</h1>
+        <button class="btn">Hire Me</button>
+    </div>
+</section>
+<section id="about">
+    <h1 class="headings">ABOUT ME</h1>
+    <div id="pic">
+        <img src="https://www.fotezja.pl/wp-content/uploads/2018/08/IMG_3867_czb_b.jpg" alt="image3.jpg">
+        <div id="intro">
+            <h2>DAGMARA STACH</h2>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </div>
+</section>
+<section id="project">
+    <h1 class="headings">PROJECTS</h1>
+    <div class="folders">
+        <figure>
+            <div>
+                <img src="https://user-images.githubusercontent.com/113015674/194852393-0ccb7dfa-39f2-454f-b035-e7a60d17a180.jpeg"
+                     alt="GitHub.img">
+                <figcaption><a href="https://github.com/DGStach?tab=repositories">GitHub</a></figcaption>
+            </div>
+
+            <div>
+                <img src="https://user-images.githubusercontent.com/113015674/194852450-b65ee9dd-9afb-4545-a451-5b1854e01038.png"
+                     alt="CodePen.img">
+                <figcaption><a href="https://codepen.io/your-work/">CodePen</a></figcaption>
+            </div>
+
+            <div>
+                <img src="https://drive.google.com/uc?export=view&id=1ZAlP-tAUVHlwa2mdsShQnE8IWykTlfZ9">
+                <figcaption><a href="https://www.codewars.com/users/dagmarastepak@gmail.com/completed_solutions">Codewars</a>
+                </figcaption>
+            </div>
+            <!--         /* Gdzie należy usunąć niepotrzebne elementy */ -->
+
+        </figure>
+    </div>
+</section>
+<section id="contact"></section>
+<h1 class="headings">CONTACT<br><br></h1>
+<form action="https://formsubmit.co/dagmarastepak@email.com" class="form" method="POST" >
+    <input type="text" name="name" class="input" placeholder="Enter Your Name">
+    <input type="hidden" name="_subject" value="New Email">
+    <input type="email" name="email" class="input" placeholder="Enter Your Email" required>
+    <input type="phone" name="phone" class="input" placeholder="Enter Your Phone Number">
+    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+    <input type="submit" value="SEND" id="send">
+</form>
+</body>
+</html>
+
